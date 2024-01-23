@@ -1,0 +1,15 @@
+<section class="wrapper style2">
+    <div class="container">
+        <header class="major">
+            <h2>{{ .item.heading }}</h2>
+            {{- $html := .item.contents | markdownify }}
+            {{- if (findRE "<p(?: [^>]*)?>" $html) }}
+                {{ $html }}
+            {{- else -}}
+                <!--<p style="display: flex; text-align: center; align-items: center;"><img src="{{ .item.image | relURL }}" />{{ $html }}</p>-->
+                <div style="display: flex; justify-content: center;"><p style="position: relative; display: flex; align-items: center;"><img src="{{ .item.image | relURL }}" />{{ $html }}</p></div>
+
+            {{- end }}
+        </header>
+    </div>
+</section>

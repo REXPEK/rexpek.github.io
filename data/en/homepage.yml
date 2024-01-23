@@ -1,0 +1,60 @@
+banner:
+  enable: true
+  image: "images/manufacturing.jpg"
+  # https://www.flandersmake.be/en/offer/offer/research/services/assembly-production-cell-line
+  contents: "**REXPEK:** Reproducing Expert Knowledge"
+  button:
+    contents: "Learn More"
+    url: "/rexpek/project-profile"
+
+items:
+
+  - type: heading
+    heading: Suggest optimal machine settings through virtual & on-site experimentation
+    contents: a Strategic Basic Research project funded by Flanders Make
+    image: "images/FM_logo.png"
+
+
+  - type: highlights
+    heading: Project Highlights
+    id: highlights
+    items_per_row: 4
+    items:
+    - title: Inverse Knowledge Exploitation Strategy
+      icon: fa-undo
+      content: >
+        More information needed.
+    - title:  Forward Knowledge Exploitation Strategy
+      icon: fa-link
+      content: >
+        More information needed.
+    - title:  IDP Knowledge Base System
+      icon: fa-th-list
+      content: >
+        A Knowledge Base system is a system that supports multiple forms of inferences for the same Knowledge Base.
+        [IDP](https://www.idp-z3.be/) is a knowledge Base System (KB-system) for the FO(·) language.
+        Using IDP, it is possible to model systems and problems, both from the real world as several artificial intelligence research problems.
+    - title:  Knowledge Graph Architecture
+      icon: fa-database
+      content: >
+         A knowledge graph represents a network of real-world entities and illustrates the relationship between them.
+         To deal with the heterogeneity of the data used, and to facilitate seamless integration of the different components, a data-driven architecture based on knowledge-graphs will be employed.
+
+  - type: cta
+    contents: Consult how REXPEK could benefit your manufacturing cases?
+    button:
+      contents: Contact us
+      url: "#footer"
+
+  - type: posts
+    id: project teams
+    heading: Project Teams
+    content_type: posts
+    max: 5
+
+
+  - type: posts
+    id: business partners
+    heading: Business Partners
+    content_type: company
+    max: 2

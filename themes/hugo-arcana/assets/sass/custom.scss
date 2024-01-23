@@ -1,0 +1,157 @@
+/* This file intentionally left blank.
+ * Put your custom CSS into your (not the theme's) assets/sass/custom.scss
+ */
+
+//Basic
+
+p, ul {
+    margin: 0 0 1.5em 0;
+}
+
+// header
+#nav {
+    background-color: #708090;
+}
+#nav:after {
+    background-color: #00A5A5;
+}
+#nav > ul > li.current::before {
+    background-color: #00A5A5;
+}
+#header {
+    padding: 0 0 0 0;
+}
+
+// banner
+
+#banner {
+    height: 26em;
+}
+
+#banner header .button {
+    background-color: _palette(accent, bg);
+
+    &:hover {
+        background-color: lighten(_palette(accent, bg), 10);
+        color: _palette(accent, fg) !important;
+    }
+}
+
+// icon
+.icon.major {
+    background-color: _palette(accent, bg);
+}
+
+// wrapper
+.wrapper {
+    padding: 2.5em 0 1em 0;
+}
+
+.wrapper.style3 {
+    background-color: _palette(accent, bg);
+}
+
+.wrapper.style1 {
+    .container {
+        .h2 {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+header {
+    &.major {
+        p {
+            padding: 1.5em 0 0 0;
+            left: 2.5em;
+        }
+
+        p::before {
+            content: ''; /* Required for the ::after pseudo-element */
+            position: absolute;
+            top: 7.5px;
+            left: 95px;
+            width: 192px;
+            height: 96px;
+            background-image: url("images/FM_logo.png");
+            background-size: cover; /* Adjust based on your logo's aspect ratio */
+            display: none;
+        }
+
+        img {
+            position: absolute;
+            width: 192px;
+            height: 96px;
+            left: -192px;
+        }
+    }
+}
+
+
+// button
+.button {
+    background-color: _palette(accent, bg);
+}
+
+a {
+    color: _palette(accent, bg);
+}
+
+// cta
+
+#cta{
+    height: 9em;
+}
+
+#nav>ul>li a {
+    color: white
+    ;
+}
+
+// footer
+
+ul.menu {
+    margin: 0 0 0 0;
+}
+
+#footer .container {
+    margin-bottom: 2em;
+}
+
+#footer {
+    padding: 2em;
+}
+
+// media
+
+@media screen and (max-width: 736px) {
+    header {
+        &.major {
+            p {
+                padding: 1em 0 0 0;
+                left: 0em
+            }
+
+            p::before {
+                display: none;
+            }
+
+            p::after {
+                content: ''; /* Empty content */
+                display: block; /* Make it a block element */
+                width: 72px; /* Set the width of the image */
+                height: 36px; /* Set the height of the image */
+                background-image: url("images/FM_logo.png"); /* Set the image URL */
+                background-size: cover; /* Adjust the background size */
+                position: absolute; /* Position it relative to the parent <p> */
+                top: 100%; /* Position it right below the text */
+                left: 50%; /* Center it horizontally */
+                transform: translateX(-50%); /* Center it horizontally */
+            }
+
+            img {
+                display: none;
+            }
+        }
+    }
+}

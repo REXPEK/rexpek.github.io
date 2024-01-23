@@ -1,0 +1,70 @@
+[[main]]
+    name = "Project Highlights"
+    url = "/#Highlights"
+    weight = 98
+
+[[main]]
+    name = "Project Teams"
+    url = "/#project%20teams"
+    weight = 98
+
+[[main]]
+    name = "Business Partners"
+    url = "/#business%20partners"
+    weight = 99
+
+[[main]]
+    name = "About Us"
+    weight = 100
+[[main]]
+    parent = "About Us"
+    name = "Flanders Make"
+    weight = 102
+    url = "https://www.flandersmake.be/en"
+[[main]]
+    parent = "About Us"
+    name = "Electrical Energy Lab"
+    url = "https://www.ugent.be/ea/emsme/en/research/eelab/"
+    weight = 103
+[[main]]
+    parent = "About Us"
+    name = "DecisionS Lab"
+    url = "#"
+    weight = 104
+[[main]]
+    parent = "About Us"
+    name = "DTAI Research"
+    url = "https://wms.cs.kuleuven.be/dtai/research/ResearchTopics#FUND"
+    weight = 105
+[[main]]
+    parent = "About Us"
+    name = "Contact Us"
+    url = "#footer"
+    weight = 106
+
+# [[main]]
+#     parent = "About Us"
+#     name = "Submenu"
+#     weight = 34
+# [[main]]
+#     parent = "Submenu"
+#     name = "Lorem dolor"
+#     identifier = "sub-lorem"
+#     weight = 35
+# [[main]]
+#     parent = "Submenu"
+#     name = "Phasellus magna"
+#     weight = 36
+# [[main]]
+#     parent = "Submenu"
+#     name = "Magna phasellus"
+#     weight = 37
+# [[main]]
+#     parent = "Submenu"
+#     name = "Etiam nisl"
+#     weight = 38
+# [[main]]
+#     parent = "Submenu"
+#     name = "Veroeros feugiat"
+#     identifier = "sub-veroeros"
+#     weight = 39
