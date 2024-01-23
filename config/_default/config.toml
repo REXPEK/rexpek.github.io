@@ -36,7 +36,7 @@ defaultContentLanguage = "en"
             header = "About us"
         [[params.footer.links.links]]
             title = "Project Profile"
-            url = "/adrian9631/project-profile"
+            url = "/project-profile"
         [[params.footer.links.links]]
             title = "Flanders Make"
             url = "https://www.flandersmake.be/en"
