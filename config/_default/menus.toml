@@ -23,24 +23,29 @@
     url = "https://www.flandersmake.be/en"
 [[main]]
     parent = "About Us"
-    name = "Electrical Energy Lab"
-    url = "https://www.ugent.be/ea/emsme/en/research/eelab/"
+    name = "M&F Groups (Ugent)"
+    url = "https://www.ugent.be/m-f/en"
     weight = 103
 [[main]]
     parent = "About Us"
-    name = "DecisionS Lab"
-    url = "#"
+    name = "Dynamics Design Lab (Ugent)"
+    url = "https://dynamics.ugent.be/"
     weight = 104
 [[main]]
     parent = "About Us"
-    name = "DTAI Research"
-    url = "https://wms.cs.kuleuven.be/dtai/research/ResearchTopics#FUND"
+    name = "Flanders Make @ KU Leuven"
+    url = "https://www.kuleuven.be/flandersmake"
     weight = 105
+[[main]]
+    parent = "About Us"
+    name = "DTAI Research"
+    url = "https://dtai.cs.kuleuven.be/"
+    weight = 106
 [[main]]
     parent = "About Us"
     name = "Contact Us"
     url = "#footer"
-    weight = 106
+    weight = 107
 
 # [[main]]
 #     parent = "About Us"

@@ -1,7 +1,10 @@
 <section class="wrapper style1">
     {{ with .item.id }}<div id="{{ . }}"></div>{{ end }}
     <div class="container">
-        {{ with .item.heading }}<h2 style="text-align: center; padding-bottom: 40px;" >{{ . }}</h2>{{ end }}
+        {{ with .item.description_heading }}<h2 style="text-align: center; padding-bottom: 20px;" >{{ . }}</h2>{{ end }}
+        {{ with .item.description_contents }}<p style="text-align: center; padding-bottom: 20px;" >{{ . }}</p>{{ end }}
+        {{ with .item.heading }}<h2 style="text-align: center; padding-bottom: 20px;" >{{ . }}</h2>{{ end }}
+        {{ with .item.contents }}<p style="text-align: center; padding-bottom: 40px;" >{{ . }}</p>{{ end }}
         <div class="row gtr-200">
             {{- $item_cols := (div 12 (.item.items_per_row | default 3)) }}
             {{- range .item.items }}

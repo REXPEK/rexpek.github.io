@@ -1,0 +1,7 @@
+<section class="wrapper style1">
+    {{ with .item.id }}<div id="{{ . }}"></div>{{ end }}
+    <div class="container">
+        {{ with .item.heading }}<h2 style="text-align: left; padding-bottom: 20px;" >{{ . }}</h2>{{ end }}
+        <a class="image_logo"><img src="{{ .item.image | relURL }}" alt="{{ .item.image_alt }}" /></a>
+    </div>
+</section>

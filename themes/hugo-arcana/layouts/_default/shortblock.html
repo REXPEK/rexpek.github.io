@@ -10,6 +10,11 @@
                 {{- with .Date }}<time>{{ . | time.Format ":date_medium" }}</time>{{ end }}
             {{ end }}
             <p>
+                {{ .Params.Person_title }}<br>
+                {{ .Params.Affiliation }}<br>
+                {{ .Params.Email }}
+            </p>
+            <p>
                 {{ with .Description }}
                     {{- . }}
                 {{- else }}

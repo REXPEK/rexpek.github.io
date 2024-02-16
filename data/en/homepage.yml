@@ -14,31 +14,32 @@ items:
     contents: a Strategic Basic Research project funded by Flanders Make
     image: "images/FM_logo.png"
 
-
   - type: highlights
-    heading: Project Highlights
     id: highlights
-    items_per_row: 4
+    heading: Project Highlights
+    description_heading: Project Description
+    description_contents: Commissioning of industrial machinery and processes is often a laborious process. Operators cycle through a series of on-site experiments they implement to identify a near-optimal operating point. The efficiency and eventual success of this procedure highly depends on the operator’s expertise.
+      REXPEK’s goal is to support (junior) operators with commissioning. To that end, REXPEK will synthesize every source of available information, ranging from quantitative process models, qualitative operator knowledge and on-site measurements, into an assistive tool.
+      Check the project profile for more details.
+    contents: To automatically find good settings, or to support an operator in tuning, a process has to take place in which a set of settings are chosen, the output observed, and combined with all prior knowledge, a new set of settings are chosen and tried, and so on, until good settings are found.
+      We highlights the following features.
+    items_per_row: 3
     items:
-    - title: Inverse Knowledge Exploitation Strategy
-      icon: fa-undo
+    - title: Automated Sequential DoE
+      icon: fa-cogs
       content: >
-        More information needed.
-    - title:  Forward Knowledge Exploitation Strategy
-      icon: fa-link
-      content: >
-        More information needed.
+        Sequential Design of Experiments (DoE) refers to problems of inference, where, as data accumulates, the operator can choose whether and what to experiment. Automated sequential DoE refers to designated tools that replace or support the operator with that decision. Popular venues are imitation learning & Bayesian decision making.
     - title:  IDP Knowledge Base System
       icon: fa-th-list
       content: >
         A Knowledge Base system is a system that supports multiple forms of inferences for the same Knowledge Base.
         [IDP](https://www.idp-z3.be/) is a knowledge Base System (KB-system) for the FO(·) language.
-        Using IDP, it is possible to model systems and problems, both from the real world as several artificial intelligence research problems.
+        Using IDP, it is possible to model systems and problems after capturing expert behavior qualitatively, both from the real world as several artificial intelligence research problems.
     - title:  Knowledge Graph Architecture
       icon: fa-database
       content: >
-         A knowledge graph represents a network of real-world entities and illustrates the relationship between them.
-         To deal with the heterogeneity of the data used, and to facilitate seamless integration of the different components, a data-driven architecture based on knowledge-graphs will be employed.
+        A knowledge graph represents a network of real-world entities and illustrates the relationship between them.
+        To deal with the heterogeneity of the data used in manufacturing, and to facilitate seamless integration of the different components, a data-driven architecture based on knowledge-graphs will be employed.
 
   - type: cta
     contents: Consult how REXPEK could benefit your manufacturing cases?
@@ -52,9 +53,8 @@ items:
     content_type: posts
     max: 5
 
-
-  - type: posts
+  - type: partners
     id: business partners
     heading: Business Partners
-    content_type: company
-    max: 2
+    image: "images/company_logos.png"
+    image_alt: "company_logos"
