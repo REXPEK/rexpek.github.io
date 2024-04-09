@@ -134,6 +134,10 @@ ul.menu {
     padding: 2em;
 }
 
+#footer .button {
+    background-color: _palette(accent, bg);
+    color: _palette(accent, fg);
+}
 // media
 
 @media screen and (max-width: 736px) {

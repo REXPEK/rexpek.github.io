@@ -45,7 +45,7 @@ items:
     contents: Consult how REXPEK could benefit your manufacturing cases?
     button:
       contents: Contact us
-      url: "#footer"
+      url: "https://forms.gle/DGfy2aCv6kx3TDRN7"
 
   - type: posts
     id: project teams
@@ -56,5 +56,5 @@ items:
   - type: partners
     id: business partners
     heading: Business Partners
-    image: "images/company_logos.png"
+    image: "images/company_logo.png"
     image_alt: "company_logos"
